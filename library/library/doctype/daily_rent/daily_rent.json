@@ -1,0 +1,45 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-10 23:05:14.961965",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_uzw2",
+  "daily_rent"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_uzw2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "daily_rent",
+   "fieldtype": "Float",
+   "label": "Daily Rent"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-09-10 23:05:39.418940",
+ "modified_by": "Administrator",
+ "module": "Library",
+ "name": "Daily Rent",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}

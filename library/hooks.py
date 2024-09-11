@@ -147,24 +147,16 @@ app_license = "unlicense"
 
 # Scheduled Tasks
 # ---------------
-
-# scheduler_events = {
-# 	"all": [
-# 		"library.tasks.all"
-# 	],
+scheduler_events = {
+	"daily": [
+		"library.scheduler.update_rent"
+	],
+}
+#scheduler_events = {
 # 	"daily": [
-# 		"library.tasks.daily"
+# 		"library.scheduler.update_rent"
 # 	],
-# 	"hourly": [
-# 		"library.tasks.hourly"
-# 	],
-# 	"weekly": [
-# 		"library.tasks.weekly"
-# 	],
-# 	"monthly": [
-# 		"library.tasks.monthly"
-# 	],
-# }
+#}
 
 # Testing
 # -------
